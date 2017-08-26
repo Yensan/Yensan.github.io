@@ -1,0 +1,104 @@
+
+/*
+<p><span>如果本书的字体显示异常，建议使用多看®阅读器。或者请下载</span><a href="https://github.com/adobe-fonts/source-han-sans/blob/release/SubsetOTF/CN/SourceHanSansCN-Regular.otf">
+思源黑体Source Han Sans CN</a></p>
+<p>如果下载思源黑体后，仍然字体异常，请下载<a href="https://github.com/adobe-fonts/source-han-serif/blob/release/SubsetOTF/CN/SourceHanSerifCN-Regular.otf">
+思源宋体Source Han Serif CN</a></p>
+*/
+
+/*   封面写法
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" properties="duokan-page-fullscreen"/>
+  </spine>
+<head>
+    <title>Cover</title>
+</head>
+<body style="margin:0;padding:0;border:o none red;">
+    <p style="padding: 0;margin: 0;border: 0 none red;width:100%; height: 100%;">
+    <img src='../Images/cover.jpg' alt='Cover' style="min-width: 100%;min-height: 100%"/>
+    </p>
+</body>
+
+
+
+*/
+
+
+
+
+@font-face{ font-family: 'NotoSans';
+    src: local('Noto Sans SC'),
+    url('/system/fonts/NotoSansCJKsc-regular.ttf') format('Truetype'),
+    local('Noto Sans SC ')
+    ;
+
+}
+body { margin: 5%; text-align: justify; font-size: medium; font-style: normal;font-weight: normal;line-height: 120%;
+    font-family:
+    'San Francisco',Helvetica,'Lucida Grande',
+    Arial,
+    'Roboto','Droid Sans',
+    'Oxygen Sans','Ubuntu','Cantarell',/*英文等线*/
+    'STHeitiSC-Light','PingFang SC-Light', /*苹果等线*/
+    'Microsoft YaHei-Light','DengXian', /*微软等线*/
+    'DK-HEITI','方正书宋_GBK',/*修正安卓多看bug  方正书宋，多看黑体*/
+    'Noto Sans SC','Noto Sans CJK SC','NotoSans','思源黑体 CN Light','SourceHanSansCN-Light','Source Han Sans CN',/*安卓等线*/
+    sans-serif!important;}
+
+
+blockquote, blockquote p, .quote {margin: 0;padding:0;text-indent:0; text-align: left; opacity: 0.7;
+font-family:Georgia, 'Times New Roman', Times, 'Kaiti SC', 'KaiTi','楷体','楷体_GB2312','STKaiti','华文楷体', 'DK-SERIF','DK-KAITI', serif!important;  }
+code { font-family:Courier, 'Monaco','Consolas','Noto Mono','Driod Sans Mono','Microsoft YaHei-Light','PingFang SC-Light','DK-CODE','DK-XIHEITI',monospace!important;}
+
+
+/* div#header-c2146 ul{list-style:none;} */
+
+
+h1 { text-align: center; }
+h2 { text-align: center; }
+h3 { text-align: left; }
+h4 { text-align: left; }
+h5 { text-align: left; }
+h6 { text-align: left; }
+p { text-align: left; text-indent:2em; line-height: 1.2em }
+li p{text-indent:0em;}
+ul {list-style-type: none}
+ol.toc { padding: 0; margin-left: 1em; }
+ol.toc li { list-style-type: none; margin: 0; padding: 0; }
+a.footnoteRef { vertical-align: super; }
+em, em em em, em em em em em { font-style: italic;}
+em em, em em em em { font-style: normal; }
+
+th, td { border:1px solid #0094ff; padding:0.3em 0.3em 0em 0.3em;}
+table {border-collapse: collapse;margin: 0em 0em 0em 4em;}
+
+
+/*
+table,table tr th, table tr td { border:1px solid #0094ff; }
+table { width: 200px; min-height: 25px; line-height: 25px; text-align: center; border-collapse: collapse; padding:2px;}  */
+
+/*移动端项目
+font-family:Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
+*/
+/*pc端(含Mac)项目
+font-family:Tahoma,Arial,”Helvetica Neue“,”Hiragino Sans GB”,Simsun,sans-self;
+*/
+/*移动和pc端项目
+font-family:Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,”Hiragino Sans GB”,Simsun,sans-self;
+*/
+
+/*微软雅黑
+.yahei{font-family: 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif!important}
+*/
+/*宋体
+.songti{font-family: 'Helvetica Neue', Helvetica,'Songti SC', 'SimSun', serif!important}
+*/
+/*楷体
+.kaiti{font-family: 'Helvetica Neue', Helvetica, 'KaiTi', '楷体', 'STKaiti', '华文楷体', serif!important}
+*/
+/*华文仿宋
+.fangsong{font-family: 'Times New Roman', 'Helvetica Neue', Helvetica, 'FangSong', '仿宋', 'STFangSong', '华文仿宋', serif!important}
+*/
+
+
+
